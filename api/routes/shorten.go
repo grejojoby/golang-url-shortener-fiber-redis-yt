@@ -5,8 +5,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/asaskevich/govalidator"
 	"github.com/go-redis/redis/v8"
-	"github.com/gofiber/fiber"
+	"github.com/gofiber/fiber/v2"
 	"github.com/google/uuid"
 	"github.com/grejojoby/golang-url-shortener-fiber-redis/database"
 	"github.com/grejojoby/golang-url-shortener-fiber-redis/helpers"
